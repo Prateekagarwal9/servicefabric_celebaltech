@@ -1,0 +1,16 @@
+
+{
+"version": "0.2.0",
+"configurations": [
+    {
+        "type": "node", 
+        "request": "launch", 
+        "name": "azuresfcontainer generator", 
+        "program": "/usr/local/bin/yo", 
+        "args": [ "azuresfcontainer" ],
+        "cwd": "/tmp", 
+        "console": "integratedTerminal", 
+        "internalConsoleOptions": "neverOpen" 
+    }
+]
+}
